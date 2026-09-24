@@ -1,0 +1,11 @@
+{
+  "max_depth": 3,
+  "prefix_invariant": true,
+  "merged_tops": 6,
+  "stacks": [
+    {"stack": ["main", "parse", "lex"], "weight": 1},
+    {"stack": ["main", "parse", "gen"], "weight": 1},
+    {"stack": ["main", "io"], "weight": 1},
+    {"stack": ["main", "parse", "lex", "deep1", "deep2"], "weight": 1}
+  ]
+}
